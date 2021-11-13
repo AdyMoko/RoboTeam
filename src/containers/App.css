@@ -1,0 +1,13 @@
+h1 {    
+font-family: 'Caveat', cursive;
+font-family: 'Metal Mania', cursive;
+font-weight: 300;
+color: rgb(0, 95, 112);
+width: 50%;
+}
+
+
+.mid {
+    font-size: 4rem;  
+    margin: 1rem auto;
+}
