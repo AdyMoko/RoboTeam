@@ -9,7 +9,8 @@ class App extends Component {
     super()
     this.state = {
       robots: [],
-      searchfield: ''
+      searchfield: '',
+      randomChars:''
     }
   }
 
@@ -23,8 +24,13 @@ class App extends Component {
     this.setState({ searchfield: event.target.value })
   }
 
+  onReset = () => {
+    let randomNumber = Math.floor(Math.random()*100);
+    this.setState({randomChars:randomNumber});
+  }
+
   render() {
-    const { robots, searchfield } = this.state;
+    const { robots, searchfield, randomChars } = this.state;
     const filteredRobots = robots.filter(robot =>{
       return robot.name.toLowerCase().includes(searchfield.toLowerCase());
     })
@@ -33,9 +39,9 @@ class App extends Component {
       (
         <div className='tc'>
           <h1 className='mid'>RoboFriends</h1>
-          <SearchBox searchChange={this.onSearchChange}/>
+          <SearchBox searchChange={this.onSearchChange} reset={this.onReset}/>
           <Scroll>
-            <CardList robots={filteredRobots} />
+            <CardList robots={filteredRobots} randomChars={randomChars} />
           </Scroll>
         </div>
       );

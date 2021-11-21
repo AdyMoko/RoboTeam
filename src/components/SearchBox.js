@@ -1,6 +1,6 @@
 import React from 'react';
 
-const SearchBox = ({ searchfield, searchChange }) => {
+const SearchBox = ({ searchfield, searchChange, reset }) => {
   return (
     <div className='pa2 ma3'>
       <input
@@ -12,8 +12,8 @@ const SearchBox = ({ searchfield, searchChange }) => {
       <button
         className='hover-bg-dark-red hover-white br3 bg-light-red pa3 ma2'
         title='WARNING: no going back!'
-        onClick={()=>window.location.reload()}>        
-        Reset Robots        
+        onClick={reset}>        
+        New Robot Images        
       </button>
     </div>
   );
