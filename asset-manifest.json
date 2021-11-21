@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/roboteam/static/css/main.572071ad.chunk.css",
+    "main.js": "/roboteam/static/js/main.ed8ac85e.chunk.js",
+    "main.js.map": "/roboteam/static/js/main.ed8ac85e.chunk.js.map",
+    "runtime-main.js": "/roboteam/static/js/runtime-main.02f184d9.js",
+    "runtime-main.js.map": "/roboteam/static/js/runtime-main.02f184d9.js.map",
+    "static/css/2.31461e4f.chunk.css": "/roboteam/static/css/2.31461e4f.chunk.css",
+    "static/js/2.c18085e4.chunk.js": "/roboteam/static/js/2.c18085e4.chunk.js",
+    "static/js/2.c18085e4.chunk.js.map": "/roboteam/static/js/2.c18085e4.chunk.js.map",
+    "static/js/3.bfe9fa51.chunk.js": "/roboteam/static/js/3.bfe9fa51.chunk.js",
+    "static/js/3.bfe9fa51.chunk.js.map": "/roboteam/static/js/3.bfe9fa51.chunk.js.map",
+    "index.html": "/roboteam/index.html",
+    "static/css/2.31461e4f.chunk.css.map": "/roboteam/static/css/2.31461e4f.chunk.css.map",
+    "static/css/main.572071ad.chunk.css.map": "/roboteam/static/css/main.572071ad.chunk.css.map",
+    "static/js/2.c18085e4.chunk.js.LICENSE.txt": "/roboteam/static/js/2.c18085e4.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.02f184d9.js",
+    "static/css/2.31461e4f.chunk.css",
+    "static/js/2.c18085e4.chunk.js",
+    "static/css/main.572071ad.chunk.css",
+    "static/js/main.ed8ac85e.chunk.js"
+  ]
+}
