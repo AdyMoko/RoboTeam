@@ -18,22 +18,24 @@ class App extends Component {
     fetch('https://jsonplaceholder.typicode.com/users')
       .then(response=> response.json())
       .then(users => {this.setState({ robots: users})});
-  }
+  };
 
   onSearchChange = (event) => {
     this.setState({ searchfield: event.target.value })
-  }
+  };
 
   onReset = () => {
-    let randomNumber = Math.floor(Math.random()*100);
-    this.setState({randomChars:randomNumber});
-  }
+    let tempNumber = Math.floor(Math.random()*100);       
+    this.setState({randomChars: tempNumber});    
+  };  
+ 
 
   render() {
     const { robots, searchfield, randomChars } = this.state;
     const filteredRobots = robots.filter(robot =>{
       return robot.name.toLowerCase().includes(searchfield.toLowerCase());
-    })
+    });   
+
     return !robots.length ?
       <h1>Loading robots...please wait...(btw you need an internet connection for this to work)</h1> :
       (

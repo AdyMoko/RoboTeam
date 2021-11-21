@@ -1,7 +1,7 @@
 import React from 'react';
 import Card from './Card';
 
-const CardList = ({ robots, randomChars}) => {
+const CardList = ({ robots, randomChars }) => {
   return (
     <div>
       {

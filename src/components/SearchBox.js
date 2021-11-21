@@ -13,7 +13,7 @@ const SearchBox = ({ searchfield, searchChange, reset }) => {
         className='hover-bg-dark-red hover-white br3 bg-light-red pa3 ma2'
         title='WARNING: no going back!'
         onClick={reset}>        
-        New Robot Images        
+        Reset Robot Pictures        
       </button>
     </div>
   );
