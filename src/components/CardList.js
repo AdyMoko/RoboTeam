@@ -2,6 +2,8 @@ import React from 'react';
 import Card from './Card';
 
 const CardList = ({ robots, randomChars }) => {
+  // testing if componentDidCatch in ErrorBoundry component works
+  // if (true) {throw Error}
   return (
     <div>
       {
